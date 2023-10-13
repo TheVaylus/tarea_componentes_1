@@ -1,0 +1,28 @@
+<app-navbar-component></app-navbar-component>
+<div class="hero" id="hero">
+    <div class="hero-image">
+        <img src="../assets/images/phone.webp" alt="Hero Image">
+    </div>
+    <div class="hero-content">
+        <h1>Phone (1)</h1>
+        <p>
+            Less distractions. More soul.<br>
+            Just pure instinct, formed as a machine. Told through beautiful symbols. Deeper interactions. And brave simplicity.<br>
+            Phone (1) can bring us back. To us.</p>
+    </div>
+</div>  
+
+<div class="cards" id="cards">
+    <app-card-component [title]="'Glyph Interface'" [description]="'Meet the Glyph Interface. A new way to communicate. Unique light patterns indicate who’s calling. Signals app notifications, charging status and more. Everyday interactions, made joyful.'" [img]="'../assets/images/phone_lights.webp'"></app-card-component>
+
+    <app-card-component [title]="'Display'" [description]="'1 billion colours. Every hue, powerfully true-to-life. 6.55” AMOLED display. HDR10+. Richer colour and deeper contrasts, tuned to each scene. Adaptive 120Hz refresh rate for irresistibly responsive interactions, while being reassuringly power-efficient.'" [img]="'../assets/images/display.jpeg'"></app-card-component>
+
+    <app-card-component [title]="'Sustainability'" [description]="'Made with 100% recycled aluminium. Leading the industry with over 50% of the plastic components coming from bio-based and recycled sources. Recycled fibre packaging. And the unfailing determination to shrink tech’s environmental impact.'" [img]="'../assets/images/green.jpg'"></app-card-component>
+</div>
+
+<footer id="footer">
+    <app-footer-component></app-footer-component>
+</footer>
+
+
+<router-outlet></router-outlet>
